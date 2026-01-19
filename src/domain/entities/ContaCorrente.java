@@ -1,4 +1,8 @@
 package domain.entities;
 
-public class ContaCorrente {
+public class ContaCorrente extends ContaBancaria {
+    @Override
+    public void depositar(double valor) {
+        super.depositar(valor);
+    }
 }
